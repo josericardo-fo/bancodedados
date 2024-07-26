@@ -1,0 +1,21 @@
+[
+    {
+        "call_id": "int",
+        "phone_number": "string",
+        "start_time": "datetime",
+        "end_time": "datetime",
+        "call_status": "string",
+        "history_messages": {
+            "user": [
+                "string"
+            ],
+            "system": [
+                "string"
+            ]
+        },
+        "service": [
+            "string"
+        ],
+        "rating": "int"
+    }
+]
