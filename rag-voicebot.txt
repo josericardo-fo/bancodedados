@@ -1,0 +1,373 @@
+Agenda de Consultas
+
+Doutor João Silva - Cardiologia
+Segunda-feira:
+- 08:00 as 09:00: Indisponível
+- 09:00 as 10:00: Disponível
+- 10:00 as 11:00: Disponível
+- 11:00 as 12:00: Indisponível
+- 12:00 as 13:00: Indisponível
+- 13:00 as 14:00: Indisponível
+- 14:00 as 15:00: Disponível
+- 15:00 as 16:00: Disponível
+- 16:00 as 17:00: Indisponível
+- 17:00 as 18:00: Indisponível
+
+Terça-feira:
+- 08:00 as 09:00: Indisponível
+- 09:00 as 10:00: Disponível
+- 10:00 as 11:00: Indisponível
+- 11:00 as 12:00: Reunião
+- 12:00 as 13:00: Indisponível
+- 13:00 as 14:00: Indisponível
+- 14:00 as 15:00: Indisponível
+- 15:00 as 16:00: Indisponível
+- 16:00 as 17:00: Indisponível
+- 17:00 as 18:00: Indisponível
+
+Quarta-feira:
+- 08:00 as 09:00: Indisponível
+- 09:00 as 10:00: Disponível
+- 10:00 as 11:00: Cirurgia
+- 11:00 as 12:00: Indisponível
+- 12:00 as 13:00: Indisponível
+- 13:00 as 14:00: Indisponível
+- 14:00 as 15:00: Disponível
+- 15:00 as 16:00: Indisponível
+- 16:00 as 17:00: Indisponível
+- 17:00 as 18:00: Indisponível
+
+Quinta-feira:
+- 08:00 as 09:00: Indisponível
+- 09:00 as 10:00: Disponível
+- 10:00 as 11:00: Disponível
+- 11:00 as 12:00: Indisponível
+- 12:00 as 13:00: Indisponível
+- 13:00 as 14:00: Indisponível
+- 14:00 as 15:00: Disponível
+- 15:00 as 16:00: Indisponível
+- 16:00 as 17:00: Indisponível
+- 17:00 as 18:00: Indisponível
+
+Sexta-feira:
+- 08:00 as 09:00: Indisponível
+- 09:00 as 10:00: Disponível
+- 10:00 as 11:00: Disponível
+- 11:00 as 12:00: Indisponível
+- 12:00 as 13:00: Indisponível
+- 13:00 as 14:00: Indisponível
+- 14:00 as 15:00: Indisponível
+- 15:00 as 16:00: Disponível
+- 16:00 as 17:00: Indisponível
+- 17:00 as 18:00: Indisponível
+
+Doutora Ana Souza - Pediatria
+Segunda-feira:
+- 08:00 as 09:00: Disponível
+- 09:00 as 10:00: Disponível
+- 10:00 as 11:00: Indisponível
+- 11:00 as 12:00: Indisponível
+- 12:00 as 13:00: Indisponível
+- 13:00 as 14:00: Indisponível
+- 14:00 as 15:00: Disponível
+- 15:00 as 16:00: Indisponível
+- 16:00 as 17:00: Indisponível
+- 17:00 as 18:00: Indisponível
+
+Terça-feira:
+- 08:00 as 09:00: Disponível
+- 09:00 as 10:00: Disponível
+- 10:00 as 11:00: Disponível
+- 11:00 as 12:00: Indisponível
+- 12:00 as 13:00: Indisponível
+- 13:00 as 14:00: Indisponível
+- 14:00 as 15:00: Indisponível
+- 15:00 as 16:00: Indisponível
+- 16:00 as 17:00: Indisponível
+- 17:00 as 18:00: Indisponível
+
+Quarta-feira:
+- 08:00 as 09:00: Disponível
+- 09:00 as 10:00: Disponível
+- 10:00 as 11:00: Indisponível
+- 11:00 as 12:00: Indisponível
+- 12:00 as 13:00: Indisponível
+- 13:00 as 14:00: Indisponível
+- 14:00 as 15:00: Disponível
+- 15:00 as 16:00: Indisponível
+- 16:00 as 17:00: Indisponível
+- 17:00 as 18:00: Indisponível
+
+Quinta-feira:
+- 08:00 as 09:00: Disponível
+- 09:00 as 10:00: Disponível
+- 10:00 as 11:00: Disponível
+- 11:00 as 12:00: Indisponível
+- 12:00 as 13:00: Indisponível
+- 13:00 as 14:00: Indisponível
+- 14:00 as 15:00: Indisponível
+- 15:00 as 16:00: Indisponível
+- 16:00 as 17:00: Indisponível
+- 17:00 as 18:00: Indisponível
+
+Sexta-feira:
+- 08:00 as 09:00: Disponível
+- 09:00 as 10:00: Disponível
+- 10:00 as 11:00: Disponível
+- 11:00 as 12:00: Indisponível
+- 12:00 as 13:00: Indisponível
+- 13:00 as 14:00: Indisponível
+- 14:00 as 15:00: Indisponível
+- 15:00 as 16:00: Indisponível
+- 16:00 as 17:00: Indisponível
+- 17:00 as 18:00: Indisponível
+
+Doutor Carlos Mendes - Ortopedia
+Segunda-feira:
+- 08:00 as 09:00: Indisponível
+- 09:00 as 10:00: Indisponível
+- 10:00 as 11:00: Disponível
+- 11:00 as 12:00: Disponível
+- 12:00 as 13:00: Indisponível
+- 13:00 as 14:00: Indisponível
+- 14:00 as 15:00: Indisponível
+- 15:00 as 16:00: Disponível
+- 16:00 as 17:00: Indisponível
+- 17:00 as 18:00: Indisponível
+
+Terça-feira:
+- 08:00 as 09:00: Indisponível
+- 09:00 as 10:00: Indisponível
+- 10:00 as 11:00: Disponível
+- 11:00 as 12:00: Disponível
+- 12:00 as 13:00: Indisponível
+- 13:00 as 14:00: Indisponível
+- 14:00 as 15:00: Indisponível
+- 15:00 as 16:00: Indisponível
+- 16:00 as 17:00: Indisponível
+- 17:00 as 18:00: Indisponível
+
+Quarta-feira:
+- 08:00 as 09:00: Indisponível
+- 09:00 as 10:00: Indisponível
+- 10:00 as 11:00: Cirurgia
+- 11:00 as 12:00: Indisponível
+- 12:00 as 13:00: Indisponível
+- 13:00 as 14:00: Indisponível
+- 14:00 as 15:00: Disponível
+- 15:00 as 16:00: Indisponível
+- 16:00 as 17:00: Indisponível
+- 17:00 as 18:00: Indisponível
+
+Quinta-feira:
+- 08:00 as 09:00: Indisponível
+- 09:00 as 10:00: Indisponível
+- 10:00 as 11:00: Disponível
+- 11:00 as 12:00: Disponível
+- 12:00 as 13:00: Indisponível
+- 13:00 as 14:00: Indisponível
+- 14:00 as 15:00: Indisponível
+- 15:00 as 16:00: Disponível
+- 16:00 as 17:00: Indisponível
+- 17:00 as 18:00: Indisponível
+
+Sexta-feira:
+- 08:00 as 09:00: Indisponível
+- 09:00 as 10:00: Indisponível
+- 10:00 as 11:00: Disponível
+- 11:00 as 12:00: Disponível
+- 12:00 as 13:00: Indisponível
+- 13:00 as 14:00: Indisponível
+- 14:00 as 15:00: Disponível
+- 15:00 as 16:00: Indisponível
+- 16:00 as 17:00: Indisponível
+- 17:00 as 18:00: Indisponível
+
+Doutora Mariana Lima - Dermatologia
+Segunda-feira:
+- 08:00 as 09:00: Disponível
+- 09:00 as 10:00: Disponível
+- 10:00 as 11:00: Indisponível
+- 11:00 as 12:00: Indisponível
+- 12:00 as 13:00: Indisponível
+- 13:00 as 14:00: Indisponível
+- 14:00 as 15:00: Indisponível
+- 15:00 as 16:00: Disponível
+- 16:00 as 17:00: Indisponível
+- 17:00 as 18:00: Indisponível
+
+Terça-feira:
+- 08:00 as 09:00: Disponível
+- 09:00 as 10:00: Disponível
+- 10:00 as 11:00: Indisponível
+- 11:00 as 12:00: Indisponível
+- 12:00 as 13:00: Indisponível
+- 13:00 as 14:00: Indisponível
+- 14:00 as 15:00: Disponível
+- 15:00 as 16:00: Indisponível
+- 16:00 as 17:00: Indisponível
+- 17:00 as 18:00: Indisponível
+
+Quarta-feira:
+- 08:00 as 09:00: Disponível
+- 09:00 as 10:00: Disponível
+- 10:00 as 11:00: Indisponível
+- 11:00 as 12:00: Indisponível
+- 12:00 as 13:00: Indisponível
+- 13:00 as 14:00: Indisponível
+- 14:00 as 15:00: Indisponível
+- 15:00 as 16:00: Disponível
+- 16:00 as 17:00: Indisponível
+- 17:00 as 18:00: Indisponível
+
+Quinta-feira:
+- 08:00 as 09:00: Disponível
+- 09:00 as 10:00: Disponível
+- 10:00 as 11:00: Indisponível
+- 11:00 as 12:00: Indisponível
+- 12:00 as 13:00: Indisponível
+- 13:00 as 14:00: Indisponível
+- 14:00 as 15:00: Disponível
+- 15:00 as 16:00: Indisponível
+- 16:00 as 17:00: Indisponível
+- 17:00 as 18:00: Indisponível
+
+Sexta-feira:
+- 08:00 as 09:00: Disponível
+- 09:00 as 10:00: Disponível
+- 10:00 as 11:00: Indisponível
+- 11:00 as 12:00: Indisponível
+- 12:00 as 13:00: Indisponível
+- 13:00 as 14:00: Indisponível
+- 14:00 as 15:00: Disponível
+- 15:00 as 16:00: Indisponível
+- 16:00 as 17:00: Indisponível
+- 17:00 as 18:00: Indisponível
+
+Doutor Rafael Costa - Neurologia
+Segunda-feira:
+- 08:00 as 09:00: Indisponível
+- 09:00 as 10:00: Indisponível
+- 10:00 as 11:00: Disponível
+- 11:00 as 12:00: Disponível
+- 12:00 as 13:00: Indisponível
+- 13:00 as 14:00: Indisponível
+- 14:00 as 15:00: Disponível
+- 15:00 as 16:00: Indisponível
+- 16:00 as 17:00: Indisponível
+- 17:00 as 18:00: Indisponível
+
+Terça-feira:
+- 08:00 as 09:00: Indisponível
+- 09:00 as 10:00: Indisponível
+- 10:00 as 11:00: Disponível
+- 11:00 as 12:00: Disponível
+- 12:00 as 13:00: Indisponível
+- 13:00 as 14:00: Indisponível
+- 14:00 as 15:00: Indisponível
+- 15:00 as 16:00: Disponível
+- 16:00 as 17:00: Indisponível
+- 17:00 as 18:00: Indisponível
+
+Quarta-feira:
+- 08:00 as 09:00: Indisponível
+- 09:00 as 10:00: Indisponível
+- 10:00 as 11:00: Disponível
+- 11:00 as 12:00: Cirurgia
+- 12:00 as 13:00: Indisponível
+- 13:00 as 14:00: Indisponível
+- 14:00 as 15:00: Indisponível
+- 15:00 as 16:00: Indisponível
+- 16:00 as 17:00: Indisponível
+- 17:00 as 18:00: Indisponível
+
+Quinta-feira:
+- 08:00 as 09:00: Indisponível
+- 09:00 as 10:00: Indisponível
+- 10:00 as 11:00: Disponível
+- 11:00 as 12:00: Disponível
+- 12:00 as 13:00: Indisponível
+- 13:00 as 14:00: Indisponível
+- 14:00 as 15:00: Disponível
+- 15:00 as 16:00: Indisponível
+- 16:00 as 17:00: Indisponível
+- 17:00 as 18:00: Indisponível
+
+Sexta-feira:
+- 08:00 as 09:00: Indisponível
+- 09:00 as 10:00: Indisponível
+- 10:00 as 11:00: Disponível
+- 11:00 as 12:00: Disponível
+- 12:00 as 13:00: Indisponível
+- 13:00 as 14:00: Indisponível
+- 14:00 as 15:00: Disponível
+- 15:00 as 16:00: Indisponível
+- 16:00 as 17:00: Indisponível
+- 17:00 as 18:00: Indisponível
+
+
+
+Primeiros Socorros para Situações de Emergência
+
+1. Corte e Arranhão
+   - Limpe a área com água e sabão.
+   - Aplique um antisséptico.
+   - Cubra com um curativo limpo.
+   - Se o corte for profundo, procure atendimento médico.
+
+2. Queimadura
+   - Resfrie a área queimada com água corrente fria por pelo menos 10 minutos.
+   - Não estoure bolhas.
+   - Cubra a área com um pano limpo e não aderente.
+   - Procure atendimento médico para queimaduras graves.
+
+3. Fratura
+   - Imobilize a área afetada.
+   - Evite mover a pessoa, a menos que seja absolutamente necessário.
+   - Aplique uma bolsa de gelo para reduzir o inchaço.
+   - Procure atendimento médico imediatamente.
+
+4. Desmaio
+   - Deite a pessoa de costas.
+   - Eleve as pernas acima do nível do coração.
+   - Afrouxe roupas apertadas.
+   - Se a pessoa não recuperar a consciência rapidamente, procure atendimento médico.
+
+5. Hemorragia Nasal
+   - Incline a cabeça da pessoa ligeiramente para frente.
+   - Aperte suavemente as narinas por 10 minutos.
+   - Evite que a pessoa assoe o nariz por várias horas após a hemorragia parar.
+   - Se a hemorragia não parar, procure atendimento médico.
+
+6. Crise Convulsiva
+   - Mantenha a calma e observe a pessoa.
+   - Afaste objetos perigosos de perto da pessoa.
+   - Não tente segurar a pessoa ou colocar algo em sua boca.
+   - Após a crise, coloque a pessoa de lado em posição de recuperação e procure atendimento médico.
+
+7. Engasgo
+   - Dê 5 golpes nas costas entre as omoplatas com a palma da mão.
+   - Se necessário, realize a manobra de Heimlich:
+     - Posicione-se atrás da pessoa e coloque os braços em volta da cintura.
+     - Faça compressões rápidas para dentro e para cima.
+   - Procure atendimento médico se a pessoa não conseguir respirar.
+
+8. Parada Cardíaca
+   - Ligue para a emergência imediatamente.
+   - Inicie a RCP (Reanimação Cardiopulmonar):
+     - Coloque as mãos uma sobre a outra no centro do peito da pessoa.
+     - Realize compressões fortes e rápidas, cerca de 100 a 120 por minuto.
+   - Continue a RCP até a chegada da ajuda médica.
+
+9. Intoxicação
+   - Ligue para o centro de controle de intoxicações ou para a emergência.
+   - Não provoque vômito, a menos que seja instruído por um profissional de saúde.
+   - Mantenha a embalagem ou rótulo do produto à mão para referência.
+
+10. Picada de Inseto
+    - Remova o ferrão se ainda estiver presente.
+    - Lave a área com água e sabão.
+    - Aplique uma compressa fria para reduzir o inchaço.
+    - Procure atendimento médico se houver sinais de reação alérgica grave.
+
+Essas orientações são básicas e podem salvar vidas, mas lembre-se de procurar atendimento médico profissional sempre que necessário.
