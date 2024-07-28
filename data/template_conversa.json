@@ -14,8 +14,11 @@
             ]
         },
         "service": [
-            "string"
+            "complete",
+            "incomplete",
+            "failed"
         ],
-        "rating": "int"
+        "reviewed": "boolean",
+        "rating": "int or null"
     }
 ]
