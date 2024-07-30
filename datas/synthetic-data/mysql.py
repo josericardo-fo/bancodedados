@@ -56,15 +56,15 @@ specialties = [
 planos_saude = ["Bradesco Saude", "Hapvida", "Sul America", "Unimed"]
 
 
-def generate_brazil_phone_number():
+def gerar_brazil_phone_number():
     ddd = random.choice(valid_ddd)
     return f"+55 {ddd} 9{fake.msisdn()[3:7]}-{fake.msisdn()[7:11]}"
 
 
-def generate_hospitals(num_hospitals):
-    hospitals = []
-    for _ in range(num_hospitals):
-        hospitals.append(
+def gerar_hospitais(num_hospitais):
+    hospitais = []
+    for _ in range(num_hospitais):
+        hospitais.append(
             {
                 "CNPJ": fake.cnpj(),
                 "nome": fake.company(),
@@ -73,10 +73,10 @@ def generate_hospitals(num_hospitals):
                 "endereco": fake.address(),
             }
         )
-    return hospitals
+    return hospitais
 
 
-def generate_pacientes(num_pacientes):
+def gerar_pacientes(num_pacientes):
     pacientes = []
     for _ in range(num_pacientes):
         pacientes.append(
@@ -86,7 +86,7 @@ def generate_pacientes(num_pacientes):
                 "data_nascimento": fake.date_of_birth(
                     minimum_age=0, maximum_age=100
                 ).strftime("%Y-%m-%d"),
-                "telefone": generate_brazil_phone_number(),
+                "telefone": gerar_brazil_phone_number(),
                 "endereco": fake.address(),
                 "plano": random.choice(planos_saude),
             }
@@ -94,7 +94,7 @@ def generate_pacientes(num_pacientes):
     return pacientes
 
 
-def generate_medicos(num_medicos, hospitals):
+def gerar_medicos(num_medicos, hospitais):
     medicos = []
     specialty_choices, weights = zip(*specialties)
     for _ in range(num_medicos):
@@ -103,16 +103,16 @@ def generate_medicos(num_medicos, hospitals):
                 "CRM": fake.numerify(text="#######"),
                 "nome": fake.name(),
                 "CPF": fake.cpf(),
-                "id_hospital": random.choice(hospitals)["CNPJ"],
+                "id_hospital": random.choice(hospitais)["CNPJ"],
                 "especialidade": random.choices(specialty_choices, weights=weights)[0],
-                "telefone": generate_brazil_phone_number(),
+                "telefone": gerar_brazil_phone_number(),
                 "email": fake.email(),
             }
         )
     return medicos
 
 
-def generate_disponibilidades(medicos):
+def gerar_disponibilidades(medicos):
     disponibilidades = []
     for medico in medicos:
         for _ in range(
@@ -155,7 +155,7 @@ def generate_disponibilidades(medicos):
     return disponibilidades
 
 
-def generate_consultas(num_consultas, medicos, pacientes, hospitals):
+def gerar_consultas(num_consultas, medicos, pacientes, hospitais):
     consultas = []
     for _ in range(num_consultas):
         start_time = random.choice(
@@ -185,7 +185,7 @@ def generate_consultas(num_consultas, medicos, pacientes, hospitals):
         consultas.append(
             {
                 "id_medico": random.choice(medicos)["CRM"],
-                "id_hospital": random.choice(hospitals)["CNPJ"],
+                "id_hospital": random.choice(hospitais)["CNPJ"],
                 "id_paciente": random.choice(pacientes)["CPF"],
                 "data_consulta": start_time.date().strftime("%Y-%m-%d"),
                 "hora": start_time.time().strftime("%H:%M:%S"),
@@ -195,24 +195,24 @@ def generate_consultas(num_consultas, medicos, pacientes, hospitals):
     return consultas
 
 
-num_hospitals = 10
+num_hospitais = 10
 num_pacientes = 50
 num_medicos = 20
 num_consultas = 100
 
-hospitals = generate_hospitals(num_hospitals)
-pacientes = generate_pacientes(num_pacientes)
-medicos = generate_medicos(num_medicos, hospitals)
-disponibilidades = generate_disponibilidades(medicos)
-consultas = generate_consultas(num_consultas, medicos, pacientes, hospitals)
+hospitais = gerar_hospitais(num_hospitais)
+pacientes = gerar_pacientes(num_pacientes)
+medicos = gerar_medicos(num_medicos, hospitais)
+disponibilidades = gerar_disponibilidades(medicos)
+consultas = gerar_consultas(num_consultas, medicos, pacientes, hospitais)
 
-df_hospitals = pd.DataFrame(hospitals)
+df_hospitais = pd.DataFrame(hospitais)
 df_pacientes = pd.DataFrame(pacientes)
 df_medicos = pd.DataFrame(medicos)
 df_disponibilidades = pd.DataFrame(disponibilidades)
 df_consultas = pd.DataFrame(consultas)
 
-df_hospitals.to_csv("Hospitals.csv", index=False)
+df_hospitais.to_csv("Hospitais.csv", index=False)
 df_pacientes.to_csv("Pacientes.csv", index=False)
 df_medicos.to_csv("Medicos.csv", index=False)
 df_disponibilidades.to_csv("Disponibilidades.csv", index=False)
