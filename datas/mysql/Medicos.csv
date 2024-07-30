@@ -1,21 +1,21 @@
-CRM,nome,CPF,id_hospital,especialidade,telefone,email
-5757738,Valentina Carvalho,752.860.391-03,42.716.935/0001-19,Cardiologia,+55 95 91999-9829,wmacedo@example.com
-1650946,Fernando Machado,293.745.018-05,49.170.538/0001-33,Ginecologia,+55 48 91915-0831,isaquepeixoto@example.com
-1396254,Thiago Carvalho,184.952.603-60,84.105.937/0001-11,Dermatologia,+55 31 91994-3428,mouradavi-lucca@example.net
-5122239,Yuri Sampaio,613.059.847-57,58.143.920/0001-49,Obstetricia,+55 28 91951-4680,vgoncalves@example.com
-3960525,Luiz Miguel Câmara,734.268.051-62,56.807.243/0001-90,Obstetricia,+55 63 91980-2350,lpacheco@example.org
-9006204,Antonella Castro,785.340.916-84,58.143.920/0001-49,Ortopedia,+55 65 91942-6287,meloevelyn@example.net
-2112182,Isabela Carvalho,962.345.087-74,56.807.243/0001-90,Dermatologia,+55 88 91903-2129,brenocamara@example.net
-8001092,Oliver Pacheco,365.210.879-59,60.951.748/0001-00,Obstetricia,+55 97 91962-0627,clarice73@example.net
-3023169,Maria Liz Abreu,648.713.295-00,56.807.243/0001-90,Psiquiatria,+55 41 91949-0623,da-costamarina@example.net
-5880981,Otávio Machado,715.243.068-35,17.936.582/0001-15,Neurologia,+55 45 91917-6969,heloisasouza@example.net
-8509065,Maria Laura Leão,163.459.780-00,53.072.816/0001-97,Obstetricia,+55 41 91999-8102,tcaldeira@example.com
-1651218,Maria Luísa Sampaio,957.182.034-23,53.072.816/0001-97,Ortopedia,+55 67 91990-7412,ana-clarada-paz@example.org
-9091725,Maria Laura Lima,546.291.087-85,56.807.243/0001-90,Ortopedia,+55 98 91999-1868,da-luzryan@example.org
-3031543,Rael Viana,246.190.357-34,56.807.243/0001-90,Ginecologia,+55 62 91985-0514,jesusbento@example.com
-1426741,Dr. Ravy Albuquerque,469.713.028-69,40.678.125/0001-90,Ginecologia,+55 74 94963-6318,sviana@example.net
-2656655,Rafaela Lima,384.712.509-50,49.170.538/0001-33,Ginecologia,+55 64 91983-4065,almeidajoao@example.net
-6998779,Eloá Alves,132.850.749-14,40.392.758/0001-37,Obstetricia,+55 85 91978-2972,davi-luccacosta@example.net
-7493815,Lorenzo Viana,649.871.523-55,84.105.937/0001-11,Obstetricia,+55 67 91913-6273,da-motaapollo@example.org
-0052500,Sra. Bianca Almeida,863.140.925-15,49.170.538/0001-33,Ginecologia,+55 71 91921-1384,jda-conceicao@example.com
-6566643,Pedro Henrique Ferreira,369.820.157-77,49.170.538/0001-33,Ginecologia,+55 17 91997-6239,novaesluisa@example.net
+CRM,nome,CPF,especialidade,telefone,email
+5757738,Valentina Carvalho,752.860.391-03,Ginecologia,+55 31 91999-9829,wmacedo@example.com
+1650946,Fernando Machado,293.745.018-05,Cardiologia,+55 82 91915-0831,isaquepeixoto@example.com
+1396254,Thiago Carvalho,184.952.603-60,Ginecologia,+55 48 91994-3428,mouradavi-lucca@example.net
+5122239,Yuri Sampaio,613.059.847-57,Obstetricia,+55 31 91951-4680,vgoncalves@example.com
+3960525,Luiz Miguel Câmara,734.268.051-62,Obstetricia,+55 37 91980-2350,lpacheco@example.org
+9006204,Antonella Castro,785.340.916-84,Obstetricia,+55 22 91942-6287,meloevelyn@example.net
+2112182,Isabela Carvalho,962.345.087-74,Dermatologia,+55 46 91903-2129,brenocamara@example.net
+8001092,Oliver Pacheco,365.210.879-59,Ortopedia,+55 65 91962-0627,clarice73@example.net
+3023169,Maria Liz Abreu,648.713.295-00,Obstetricia,+55 41 91949-0623,da-costamarina@example.net
+5880981,Otávio Machado,715.243.068-35,Pediatria,+55 37 91917-6969,heloisasouza@example.net
+8509065,Maria Laura Leão,163.459.780-00,Pediatria,+55 97 91999-8102,tcaldeira@example.com
+1651218,Maria Luísa Sampaio,957.182.034-23,Obstetricia,+55 41 91990-7412,ana-clarada-paz@example.org
+9091725,Maria Laura Lima,546.291.087-85,Dermatologia,+55 45 91999-1868,da-luzryan@example.org
+3031543,Rael Viana,246.190.357-34,Endocrinologia,+55 19 91985-0514,jesusbento@example.com
+1426741,Dr. Ravy Albuquerque,469.713.028-69,Ortopedia,+55 41 94963-6318,sviana@example.net
+2656655,Rafaela Lima,384.712.509-50,Pediatria,+55 24 91983-4065,almeidajoao@example.net
+6998779,Eloá Alves,132.850.749-14,Ginecologia,+55 98 91978-2972,davi-luccacosta@example.net
+7493815,Lorenzo Viana,649.871.523-55,Obstetricia,+55 22 91913-6273,da-motaapollo@example.org
+0052500,Sra. Bianca Almeida,863.140.925-15,Cardiologia,+55 62 91921-1384,jda-conceicao@example.com
+6566643,Pedro Henrique Ferreira,369.820.157-77,Neurologia,+55 51 91997-6239,novaesluisa@example.net

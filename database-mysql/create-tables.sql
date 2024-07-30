@@ -30,6 +30,16 @@ CREATE TABLE
         endereco VARCHAR(255)
     );
 
+-- Tabela Trabalha (associativa entre Medico e Hospital)
+CREATE TABLE
+    Trabalha (
+        id_trabalha INT PRIMARY KEY AUTO_INCREMENT,
+        id_medico VARCHAR(10),
+        id_hospital VARCHAR(18),
+        FOREIGN KEY (id_medico) REFERENCES Medico (CRM),
+        FOREIGN KEY (id_hospital) REFERENCES Hospital (CNPJ)
+    );
+
 -- Tabela Disponibilidade
 CREATE TABLE
     Disponibilidade (

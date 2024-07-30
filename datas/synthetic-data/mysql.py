@@ -94,7 +94,7 @@ def gerar_pacientes(num_pacientes):
     return pacientes
 
 
-def gerar_medicos(num_medicos, hospitais):
+def gerar_medicos(num_medicos):
     medicos = []
     specialty_choices, weights = zip(*specialties)
     for _ in range(num_medicos):
@@ -103,7 +103,6 @@ def gerar_medicos(num_medicos, hospitais):
                 "CRM": fake.numerify(text="#######"),
                 "nome": fake.name(),
                 "CPF": fake.cpf(),
-                "id_hospital": random.choice(hospitais)["CNPJ"],
                 "especialidade": random.choices(specialty_choices, weights=weights)[0],
                 "telefone": gerar_brazil_phone_number(),
                 "email": fake.email(),
@@ -112,9 +111,24 @@ def gerar_medicos(num_medicos, hospitais):
     return medicos
 
 
-def gerar_disponibilidades(medicos):
-    disponibilidades = []
+def gerar_trabalha(medicos, hospitais):
+    trabalha = []
     for medico in medicos:
+        for _ in range(
+            random.randint(1, 3)
+        ):  # Cada médico pode estar associado a 1 a 3 hospitais
+            trabalha.append(
+                {
+                    "id_medico": medico["CRM"],
+                    "id_hospital": random.choice(hospitais)["CNPJ"],
+                }
+            )
+    return trabalha
+
+
+def gerar_disponibilidades(trabalha):
+    disponibilidades = []
+    for medico_hospital in trabalha:
         for _ in range(
             random.randint(1, 7)
         ):  # Cada médico tem entre 1 e 7 disponibilidades
@@ -135,8 +149,8 @@ def gerar_disponibilidades(medicos):
             end_time = start_time + timedelta(hours=1)
             disponibilidades.append(
                 {
-                    "id_medico": medico["CRM"],
-                    "id_hospital": medico["id_hospital"],
+                    "id_medico": medico_hospital["id_medico"],
+                    "id_hospital": medico_hospital["id_hospital"],
                     "dia_semana": random.choice(
                         [
                             "domingo",
@@ -202,19 +216,22 @@ num_consultas = 100
 
 hospitais = gerar_hospitais(num_hospitais)
 pacientes = gerar_pacientes(num_pacientes)
-medicos = gerar_medicos(num_medicos, hospitais)
-disponibilidades = gerar_disponibilidades(medicos)
+medicos = gerar_medicos(num_medicos)
+trabalha = gerar_trabalha(medicos, hospitais)
+disponibilidades = gerar_disponibilidades(trabalha)
 consultas = gerar_consultas(num_consultas, medicos, pacientes, hospitais)
 
 df_hospitais = pd.DataFrame(hospitais)
 df_pacientes = pd.DataFrame(pacientes)
 df_medicos = pd.DataFrame(medicos)
+df_trabalha = pd.DataFrame(trabalha)
 df_disponibilidades = pd.DataFrame(disponibilidades)
 df_consultas = pd.DataFrame(consultas)
 
 df_hospitais.to_csv("Hospitais.csv", index=False)
 df_pacientes.to_csv("Pacientes.csv", index=False)
 df_medicos.to_csv("Medicos.csv", index=False)
+df_trabalha.to_csv("Trabalha.csv", index=False)
 df_disponibilidades.to_csv("Disponibilidades.csv", index=False)
 df_consultas.to_csv("Consultas.csv", index=False)
 
