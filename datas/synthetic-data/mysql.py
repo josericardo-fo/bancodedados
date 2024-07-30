@@ -1,7 +1,7 @@
 import random
 from datetime import datetime, timedelta
 
-import pandas as pd
+import pandas as pd # type: ignore
 from faker import Faker
 
 fake = Faker("pt_BR")
