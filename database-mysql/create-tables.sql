@@ -16,7 +16,8 @@ CREATE TABLE Paciente (
 );
 
 CREATE TABLE Medico (
-    CRM varchar(10) PRIMARY KEY nome varchar(255),
+    CRM varchar(10) PRIMARY KEY,
+    nome varchar(255),
     CPF varchar(14),
     id_hospital varchar(18),
     especialidade varchar(100),
