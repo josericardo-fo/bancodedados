@@ -1,61 +1,67 @@
-CREATE TABLE Hospital (
-    CNPJ varchar(18) PRIMARY KEY,
-    nome varchar(255),
-    cidade varchar(100),
-    CEP varchar(8),
-    endereco varchar(255)
-);
+-- Tabela Paciente
+CREATE TABLE
+    Paciente (
+        CPF VARCHAR(14) PRIMARY KEY,
+        nome VARCHAR(255),
+        data_nascimento DATE,
+        telefone VARCHAR(20),
+        endereco VARCHAR(255),
+        plano VARCHAR(255)
+    );
 
-CREATE TABLE Paciente (
-    CPF varchar(14) PRIMARY KEY,
-    nome varchar(255),
-    data_nascimento date,
-    telefone varchar(20),
-    endereco varchar(255),
-    plano varchar(100)
-);
+-- Tabela Medico
+CREATE TABLE
+    Medico (
+        CRM VARCHAR(10) PRIMARY KEY,
+        CPF VARCHAR(14),
+        nome VARCHAR(255),
+        especialidade VARCHAR(255),
+        telefone VARCHAR(20),
+        email VARCHAR(255)
+    );
 
-CREATE TABLE Medico (
-    CRM varchar(10) PRIMARY KEY,
-    nome varchar(255),
-    CPF varchar(14),
-    id_hospital varchar(18),
-    especialidade varchar(100),
-    telefone varchar(20),
-    email varchar(255),
-    FOREIGN KEY (id_hospital) REFERENCES Hospital(CNPJ),
-    FOREIGN KEY (id_disponibilidade) REFERENCES Disponibilidade(id_medico, id_hospital)
-);
+-- Tabela Hospital
+CREATE TABLE
+    Hospital (
+        CNPJ VARCHAR(18) PRIMARY KEY,
+        nome VARCHAR(255),
+        cidade VARCHAR(255),
+        CEP VARCHAR(8),
+        endereco VARCHAR(255)
+    );
 
-CREATE TABLE Disponibilidade (
-    id_medico varchar(10),
-    id_hospital varchar(18),
-    dia_semana ENUM(
-        'domingo',
-        'segunda',
-        'terca',
-        'quarta',
-        'quinta',
-        'sexta',
-        'sabado'
-    ),
-    hr_inicio time,
-    hr_fim time,
-    disponivel boolean,
-    FOREIGN KEY (id_medico) REFERENCES Medico(CRM),
-    FOREIGN KEY (id_hospital) REFERENCES Hospital(CNPJ),
-    PRIMARY KEY (id_medico, id_hospital)
-);
+-- Tabela Disponibilidade
+CREATE TABLE
+    Disponibilidade (
+        id_disponibilidade INT PRIMARY KEY AUTO_INCREMENT,
+        id_medico VARCHAR(10),
+        id_hospital VARCHAR(18),
+        dia_semana ENUM (
+            'domingo',
+            'segunda',
+            'terca',
+            'quarta',
+            'quinta',
+            'sexta',
+            'sabado'
+        ),
+        hr_inicio TIME,
+        hr_fim TIME,
+        FOREIGN KEY (id_medico) REFERENCES Medico (CRM),
+        FOREIGN KEY (id_hospital) REFERENCES Hospital (CNPJ)
+    );
 
-CREATE TABLE Consulta (
-    id_medico varchar(10),
-    id_hospital varchar(18),
-    id_paciente varchar(14),
-    data_consulta date,
-    hora time,
-    consulta_status enum('agendada', 'realizada', 'cancelada'),
-    FOREIGN KEY (id_medico) REFERENCES Medico(CRM),
-    FOREIGN KEY (id_hospital) REFERENCES Hospital(CNPJ),
-    FOREIGN KEY (id_paciente) REFERENCES Paciente(CPF),
-    PRIMARY KEY (id_medico, id_hospital, id_paciente)
-);
+-- Tabela Consulta
+CREATE TABLE
+    Consulta (
+        id_consulta INT PRIMARY KEY AUTO_INCREMENT,
+        id_medico VARCHAR(10),
+        id_hospital VARCHAR(18),
+        id_paciente VARCHAR(14),
+        data_consulta DATE,
+        hora TIME,
+        consulta_status ENUM ('agendada', 'realizada', 'cancelada'),
+        FOREIGN KEY (id_medico) REFERENCES Medico (CRM),
+        FOREIGN KEY (id_hospital) REFERENCES Hospital (CNPJ),
+        FOREIGN KEY (id_paciente) REFERENCES Paciente (CPF)
+    );

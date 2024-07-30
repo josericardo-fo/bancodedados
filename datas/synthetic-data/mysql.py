@@ -1,7 +1,7 @@
 import random
 from datetime import datetime, timedelta
 
-import pandas as pd # type: ignore
+import pandas as pd
 from faker import Faker
 
 fake = Faker("pt_BR")
@@ -136,6 +136,7 @@ def generate_disponibilidades(medicos):
             disponibilidades.append(
                 {
                     "id_medico": medico["CRM"],
+                    "id_hospital": medico["id_hospital"],
                     "dia_semana": random.choice(
                         [
                             "domingo",
@@ -149,7 +150,6 @@ def generate_disponibilidades(medicos):
                     ),
                     "hr_inicio": start_time.time().strftime("%H:%M:%S"),
                     "hr_fim": end_time.time().strftime("%H:%M:%S"),
-                    "disponivel": random.choice([True, False]),
                 }
             )
     return disponibilidades
