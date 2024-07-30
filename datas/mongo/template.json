@@ -1,24 +1,23 @@
 [
     {
-        "call_id": "int",
-        "phone_number": "string",
-        "start_time": "datetime",
-        "end_time": "datetime",
-        "call_status": "string",
-        "history_messages": {
-            "user": [
+        "id_chamada": "int",
+        "numero_telefone": "string",
+        "hora_inicio": "datetime",
+        "hora_fim": "datetime",
+        "status_chamada": "string",
+        "historico_mensagens": {
+            "usuario": [
                 "string"
             ],
-            "system": [
+            "sistema": [
                 "string"
             ]
         },
-        "service": [
-            "complete",
-            "incomplete",
-            "failed"
+        "servico": [
+            "agendamento",
+            "informação"
         ],
-        "reviewed": "boolean",
-        "rating": "int or null"
+        "avaliada": "boolean",
+        "avaliacao": "int"
     }
 ]
