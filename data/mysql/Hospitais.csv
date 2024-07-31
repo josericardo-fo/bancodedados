@@ -1,31 +1,11 @@
 CNPJ,nome,cidade,CEP,endereco
-40.678.125/0001-90,Cirino - EI,Mendonça,69366727,"Distrito de Macedo
-Flavio De Oliveira
-93856-397 da Rocha / ES"
-56.807.243/0001-90,Correia Ferreira S.A.,Siqueira,67561478,"Vereda das Neves, 1
-Dom Cabral
-18906-865 Correia / DF"
-84.105.937/0001-11,Cavalcante - EI,da Paz,43829764,"Via de Araújo, 65
-São Francisco Das Chagas
-90464010 da Conceição / DF"
-58.143.920/0001-49,Cardoso Oliveira - EI,Costa,21114341,"Distrito Yasmin Sampaio, 31
-Floresta
-81281518 Ferreira / AP"
-40.392.758/0001-37,das Neves,Fonseca,20995635,"Feira Almeida, 6
-Vila Copacabana
-20662-658 Marques / SP"
-42.716.935/0001-19,Brito Ltda.,Cirino,98730862,"Via da Rocha, 18
-Belmonte
-52494-129 Araújo de Pimenta / RR"
-49.170.538/0001-33,da Luz - EI,Albuquerque de Santos,02248931,"Rodovia Liam Souza, 89
-Conjunto Jatoba
-80863-658 Cassiano da Prata / PA"
-60.951.748/0001-00,Pacheco,Siqueira,95144941,"Trevo Marques, 88
-Vila Madre Gertrudes 2ª Seção
-31470-412 Sá de Barros / AP"
-53.072.816/0001-97,Montenegro Dias - ME,das Neves,21277136,"Condomínio Cunha, 69
-Acaba Mundo
-41229-949 Almeida / GO"
-17.936.582/0001-15,Aparecida,Siqueira de Jesus,61977431,"Vila de Cassiano, 7
-Vila Jardim Montanhes
-56220-883 Porto da Mata / MT"
+40.678.125/0001-90,Cirino - EI,Mendonça,69366727,"Distrito de Macedo, Flavio De Oliveira, 93856-397 da Rocha / ES"
+56.807.243/0001-90,Correia Ferreira S.A.,Siqueira,67561478,"Vereda das Neves, 1, Dom Cabral, 18906-865 Correia / DF"
+84.105.937/0001-11,Cavalcante - EI,da Paz,43829764,"Via de Araújo, 65, São Francisco Das Chagas, 90464010 da Conceição / DF"
+58.143.920/0001-49,Cardoso Oliveira - EI,Costa,21114341,"Distrito Yasmin Sampaio, 31, Floresta, 81281518 Ferreira / AP"
+40.392.758/0001-37,das Neves,Fonseca,20995635,"Feira Almeida, 6, Vila Copacabana, 20662-658 Marques / SP"
+42.716.935/0001-19,Brito Ltda.,Cirino,98730862,"Via da Rocha, 18, Belmonte, 52494-129 Araújo de Pimenta / RR"
+49.170.538/0001-33,da Luz - EI,Albuquerque de Santos,02248931,"Rodovia Liam Souza, 89, Conjunto Jatoba, 80863-658 Cassiano da Prata / PA"
+60.951.748/0001-00,Pacheco,Siqueira,95144941,"Trevo Marques, 88, Vila Madre Gertrudes 2ª Seção, 31470-412 Sá de Barros / AP"
+53.072.816/0001-97,Montenegro Dias - ME,das Neves,21277136,"Condomínio Cunha, 69, Acaba Mundo, 41229-949 Almeida / GO"
+17.936.582/0001-15,Aparecida,Siqueira de Jesus,61977431,"Vila de Cassiano, 7, Vila Jardim Montanhes, 56220-883 Porto da Mata / MT"
