@@ -13,7 +13,7 @@ Bem-vindo ao projeto Jul.ia! Este repositório contém o código e os dados nece
 │   └── ...
 ├── data
 │   ├── mongo
-│   │   ├── history-conversation.json
+│   │   ├── historico_conversas.json
 │   │   └── template.json
 │   ├── mysql
 │   │   ├── Consultas.csv
@@ -23,16 +23,16 @@ Bem-vindo ao projeto Jul.ia! Este repositório contém o código e os dados nece
 │   │   ├── Pacientes.csv
 │   │   └── Trabalha.csv
 │   ├── rag
-│   │   └── data-rag.txt
+│   │   └── data_rag.txt
 │   └── synthetic-data
 │       ├── mongo.py
 │       └── mysql.py
 ├── database-mongo
-│   ├── config_mongo.py
-│   └── insert-mongodb.py
+│   ├── config_mongodb.py
+│   └── insert_mongodb.py
 ├── database-mysql
-│   ├── create-tables.sql
-│   └── insert-mysql.ipynb
+│   ├── create_tables.sql
+│   └── insert_mysql.ipynb
 ├── .env
 ├── .gitignore
 ├── julia.ipynb
