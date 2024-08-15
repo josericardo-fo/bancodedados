@@ -1,0 +1,23 @@
+[
+    {
+        "id_chamada": "int",
+        "numero_telefone": "string",
+        "hora_inicio": "datetime",
+        "hora_fim": "datetime",
+        "status_chamada": "string",
+        "historico_mensagens": {
+            "usuario": [
+                "string"
+            ],
+            "sistema": [
+                "string"
+            ]
+        },
+        "servico": [
+            "agendamento",
+            "informação"
+        ],
+        "avaliada": "boolean",
+        "avaliacao": "int"
+    }
+]
